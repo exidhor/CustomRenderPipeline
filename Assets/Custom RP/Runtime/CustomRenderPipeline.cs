@@ -9,8 +9,7 @@ public class CustomRenderPipeline : RenderPipeline
     {
         foreach(Camera camera in cameras)
         {
-            _renderer.Render(context, camera);-
-                +.*00
+            _renderer.Render(context, camera);
           }
     }
 }
