@@ -3,7 +3,7 @@ using UnityEngine.Rendering;
 
 public partial class CameraRenderer
 {
-    static ShaderTagId unlitSahderTagId = new ShaderTagId("SRPDefaultUnlit");
+    static ShaderTagId unlitShaderTagId = new ShaderTagId("SRPDefaultUnlit");
 
     ScriptableRenderContext _context;
     Camera _camera;
@@ -13,7 +13,8 @@ public partial class CameraRenderer
 
     CullingResults _cullingResults;
 
-    public void Render(ScriptableRenderContext context, Camera camera)
+    public void Render(ScriptableRenderContext context, Camera camera,
+        bool useDynamicBatching, bool useGPUInstancing)
     {
         _context = context;
         _camera = camera;
@@ -24,7 +25,7 @@ public partial class CameraRenderer
         if (!Cull()) return;
 
         Setup();
-        DrawVisibleGeometry();
+        DrawVisibleGeometry(useDynamicBatching, useGPUInstancing);
         DrawUnsupportedShaders();
         DrawGizmos();
         Submit();
@@ -43,13 +44,19 @@ public partial class CameraRenderer
         ExecuteBuffer();
     }
 
-    void DrawVisibleGeometry()
+    void DrawVisibleGeometry(bool useDynamicBatching, bool useGPUInstancing)
     {
         var sortingSettings = new SortingSettings(_camera)
         {
             criteria = SortingCriteria.CommonOpaque
         };
-        var drawingSettings = new DrawingSettings(unlitSahderTagId, sortingSettings);
+        
+        var drawingSettings = new DrawingSettings(unlitShaderTagId, sortingSettings) 
+        {
+            enableDynamicBatching = useDynamicBatching,
+            enableInstancing = useGPUInstancing
+        };
+
         var filteringSettings = new FilteringSettings(RenderQueueRange.opaque);
 
         _context.DrawRenderers(_cullingResults, ref drawingSettings, ref filteringSettings);

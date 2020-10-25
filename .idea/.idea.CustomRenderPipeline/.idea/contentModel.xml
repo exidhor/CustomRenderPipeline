@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Custom RP" t="Include">
+          <e p="PerObjectMaterialProperties.cs" t="Include" />
+          <e p="Runtime" t="Include">
+            <e p="CameraRenderer.cs" t="Include" />
+            <e p="CameraRenderer.Editor.cs" t="Include" />
+            <e p="CustomRenderPipeline.cs" t="Include" />
+            <e p="CustomRenderPipelineAsset.cs" t="Include" />
+          </e>
+          <e p="ShaderLibrary" t="Include">
+            <e p="Common.hlsl" t="Include" />
+            <e p="UnityInput.hlsl" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="Unlit.shader" t="Include" />
+            <e p="UnlitPass.hlsl" t="Include" />
+          </e>
+        </e>
+        <e p="MeshBall.cs" t="Include" />
+      </e>
+      <e p="CustomRenderPipeline.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_CustomRenderPipeline.1929979577.00" t="ExcludeRecursive" />
+  </component>
+</project>
