@@ -14,6 +14,8 @@ public partial class CameraRenderer
     CommandBuffer _buffer = new CommandBuffer { name = _bufferName };
 
     CullingResults _cullingResults;
+    
+    Lighting _lighting = new Lighting();
 
     public void Render(ScriptableRenderContext context, Camera camera,
         bool useDynamicBatching, bool useGPUInstancing)
@@ -27,6 +29,7 @@ public partial class CameraRenderer
         if (!Cull()) return;
 
         Setup();
+        _lighting.Setup(context, _cullingResults);
         DrawVisibleGeometry(useDynamicBatching, useGPUInstancing);
         DrawUnsupportedShaders();
         DrawGizmos();

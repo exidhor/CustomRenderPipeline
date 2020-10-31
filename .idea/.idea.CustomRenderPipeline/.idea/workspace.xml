@@ -20,22 +20,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ab97538-8402-43d4-a2df-81ad76521c9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Custom RP/Materials/Lit.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Custom RP/Materials/Lit.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Custom RP/ShaderLibrary/Surface.hlsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Custom RP/ShaderLibrary/Surface.hlsl.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Custom RP/Shaders/Light.hlsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Custom RP/Shaders/Light.hlsl.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Custom RP/Shaders/Lighting.hlsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Custom RP/Shaders/Lighting.hlsl.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Custom RP/Shaders/Lit.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Custom RP/Shaders/Lit.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Custom RP/Shaders/LitPass.hlsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Custom RP/Shaders/LitPass.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Custom RP/Runtime/Lighting.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Custom RP/Runtime/Lighting.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Custom RP/ShaderLibrary/BRDF.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Custom RP/ShaderLibrary/BRDF.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/sphere-alpha-map.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/sphere-alpha-map.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/TestDot.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/TestDot.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MeshBall.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MeshBall.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TestDot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TestDot.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CustomRenderPipeline/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CustomRenderPipeline/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CustomRenderPipeline/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CustomRenderPipeline/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CustomRenderPipeline/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CustomRenderPipeline/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Custom RP/Materials/Lit.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Custom RP/Materials/Lit.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Custom RP/PerObjectMaterialProperties.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Custom RP/PerObjectMaterialProperties.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Custom RP/Runtime/CameraRenderer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Custom RP/Runtime/CameraRenderer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Custom RP/Runtime/CustomRenderPipeline.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Custom RP/Runtime/CustomRenderPipeline.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Custom RP/ShaderLibrary/Common.hlsl" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Custom RP/ShaderLibrary/Common.hlsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Custom RP/ShaderLibrary/Surface.hlsl" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Custom RP/ShaderLibrary/Surface.hlsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Custom RP/ShaderLibrary/UnityInput.hlsl" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Custom RP/ShaderLibrary/UnityInput.hlsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Custom RP/Shaders/Light.hlsl" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Custom RP/Shaders/Light.hlsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Custom RP/Shaders/Lighting.hlsl" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Custom RP/Shaders/Lighting.hlsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Custom RP/Shaders/Lit.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Custom RP/Shaders/Lit.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Custom RP/Shaders/LitPass.hlsl" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Custom RP/Shaders/LitPass.hlsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Custom RP/Shaders/Unlit.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Custom RP/Shaders/Unlit.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MeshBall.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MeshBall.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MeshScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MeshScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/sphere-alpha-map.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/sphere-alpha-map.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,19 +68,25 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Custom RP/ShaderLibrary/Common.hlsl" />
-        <option value="$PROJECT_DIR$/Assets/Custom RP/Runtime/CustomRenderPipeline.cs" />
         <option value="$PROJECT_DIR$/Assets/Custom RP/Runtime/CustomRenderPipelineAsset.cs" />
-        <option value="$PROJECT_DIR$/Assets/Custom RP/Shaders/Unlit.shader" />
-        <option value="$PROJECT_DIR$/Assets/Custom RP/PerObjectMaterialProperties.cs" />
         <option value="$PROJECT_DIR$/Assets/MeshBall.cs" />
-        <option value="$PROJECT_DIR$/Assets/Custom RP/Shaders/Lit.shader" />
-        <option value="$PROJECT_DIR$/Assets/Custom RP/Runtime/CameraRenderer.cs" />
         <option value="$PROJECT_DIR$/Assets/Custom RP/Shaders/UnlitPass.hlsl" />
-        <option value="$PROJECT_DIR$/Assets/Custom RP/ShaderLibrary/Surface.hlsl" />
-        <option value="$PROJECT_DIR$/Assets/Custom RP/Shaders/Lighting.hlsl" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TestDot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Custom RP/Runtime/CameraRenderer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Custom RP/Runtime/CustomRenderPipeline.cs" />
+        <option value="$PROJECT_DIR$/Assets/Custom RP/Runtime/Lighting.cs" />
         <option value="$PROJECT_DIR$/Assets/Custom RP/Shaders/Light.hlsl" />
+        <option value="$PROJECT_DIR$/Assets/Custom RP/Shaders/Unlit.shader" />
+        <option value="$PROJECT_DIR$/Assets/Custom RP/Shaders/Lit.shader" />
+        <option value="$PROJECT_DIR$/Assets/Custom RP/PerObjectMaterialProperties.cs" />
+        <option value="$PROJECT_DIR$/Assets/Custom RP/Shaders/BRDF.hlsl" />
+        <option value="$PROJECT_DIR$/Assets/Custom RP/ShaderLibrary/UnityInput.hlsl" />
+        <option value="$PROJECT_DIR$/Assets/Custom RP/ShaderLibrary/Surface.hlsl" />
+        <option value="$PROJECT_DIR$/Assets/Custom RP/ShaderLibrary/Common.hlsl" />
+        <option value="$PROJECT_DIR$/Assets/Custom RP/ShaderLibrary/BRDF.hlsl" />
+        <option value="$PROJECT_DIR$/Assets/Custom RP/Shaders/Lighting.hlsl" />
         <option value="$PROJECT_DIR$/Assets/Custom RP/Shaders/LitPass.hlsl" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MeshBall.cs" />
       </list>
     </option>
   </component>
@@ -119,7 +142,8 @@
       <updated>1603640091861</updated>
       <workItem from="1603640106943" duration="40000" />
       <workItem from="1603640226430" duration="7033000" />
-      <workItem from="1603916275915" duration="3268000" />
+      <workItem from="1603916275915" duration="3335000" />
+      <workItem from="1604073147728" duration="7209000" />
     </task>
     <servers />
   </component>
@@ -158,9 +182,9 @@
     </state>
     <state x="100" y="86" width="1240" height="783" key="VCS.FileHistoryDialog/0.23.1440.800@0.23.1440.800" timestamp="1603916034727" />
     <state x="100" y="100" width="1240" height="700" key="VCS.FileHistoryDialog/0.23.1440.805@0.23.1440.805" timestamp="1603644154081" />
-    <state x="383" y="194" width="672" height="678" key="search.everywhere.popup" timestamp="1603645268508">
+    <state x="383" y="194" width="672" height="678" key="search.everywhere.popup" timestamp="1604075683181">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="383" y="194" width="672" height="678" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1603645268508" />
+    <state x="383" y="194" width="672" height="678" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1604075683181" />
   </component>
 </project>

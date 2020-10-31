@@ -11,8 +11,10 @@
             <e p="CameraRenderer.Editor.cs" t="Include" />
             <e p="CustomRenderPipeline.cs" t="Include" />
             <e p="CustomRenderPipelineAsset.cs" t="Include" />
+            <e p="Lighting.cs" t="Include" />
           </e>
           <e p="ShaderLibrary" t="Include">
+            <e p="BRDF.hlsl" t="Include" />
             <e p="Common.hlsl" t="Include" />
             <e p="Surface.hlsl" t="Include" />
             <e p="UnityInput.hlsl" t="Include" />
@@ -26,7 +28,10 @@
             <e p="UnlitPass.hlsl" t="Include" />
           </e>
         </e>
-        <e p="MeshBall.cs" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="MeshBall.cs" t="Include" />
+          <e p="TestDot.cs" t="Include" />
+        </e>
       </e>
       <e p="CustomRenderPipeline.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
