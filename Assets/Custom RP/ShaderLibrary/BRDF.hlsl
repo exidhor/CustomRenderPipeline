@@ -16,13 +16,20 @@ float OneMinusReflexivity(float metallic)
     return (1 - metallic) * range;
 }
 
-BRDF GetBRDF(Surface surface)
+BRDF GetBRDF(Surface surface, bool applyAlphaToDiffuse = false)
 {
     BRDF brdf;
 
     float oneMinusReflexivity = OneMinusReflexivity(surface.metallic);
-    
+
+
     brdf.diffuse = surface.color * oneMinusReflexivity;
+
+    if(applyAlphaToDiffuse)
+    {
+        brdf.diffuse *= surface.alpha;
+    }
+    
     brdf.specular = lerp(MIN_REFLEXIVITY, surface.color, surface.metallic);
 
     float perceptualRoughness = PerceptualSmoothnessToPerceptualRoughness(surface.smoothness);

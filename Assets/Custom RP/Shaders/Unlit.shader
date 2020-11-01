@@ -11,6 +11,8 @@
 		[Enum(Off, 0, On, 1)] _ZWrite ("Z Write", Float) = 1
 	}
 
+	CustomEditor "CustomShaderGUI"
+	
 	SubShader 
 	{
 		Pass 
